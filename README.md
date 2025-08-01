@@ -2,6 +2,8 @@
 
 A lightweight Kotlin library that provides convenient utilities for combining multiple StateFlows into a single StateFlow.
 
+Developed by [kioskware.co](kioskware.co) - company delivering professional Android kiosk software and hardware. Based in Poland 🇵🇱
+
 ## Overview
 
 KStateFlows extends Kotlin's coroutines library by offering type-safe functions to combine 2-5 StateFlows or any number of StateFlows with different types. Unlike the standard `combine` function, these utilities return a StateFlow (not just a Flow), preserving the immediate access to current values.
