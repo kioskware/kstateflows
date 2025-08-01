@@ -1,4 +1,4 @@
-package kioskware.kstateflows.kioskware.kstateflows
+package kioskware.kstateflows
 
 import kotlinx.coroutines.flow.FlowCollector
 import kotlinx.coroutines.flow.StateFlow

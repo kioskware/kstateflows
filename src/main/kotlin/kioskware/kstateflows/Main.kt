@@ -1,6 +1,6 @@
-package kioskware.kstateflows
+package kioskware.kstateflows.kioskware.kstateflows
 
-import kioskware.kstateflows.kioskware.kstateflows.combineStateFlows
+import kioskware.kstateflows.combineStateFlows
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.Dispatchers
