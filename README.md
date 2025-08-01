@@ -2,7 +2,7 @@
 
 A lightweight Kotlin library that provides convenient utilities for combining multiple StateFlows into a single StateFlow.
 
-Developed by [kioskware.co](kioskware.co) - company delivering professional Android kiosk software and hardware. Based in Poland 🇵🇱
+Developed by [kioskware.co](https://kioskware.co) - company delivering professional Android kiosk software and hardware. Based in Poland 🇵🇱
 
 ## Overview
 
