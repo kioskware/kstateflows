@@ -22,16 +22,18 @@ KStateFlows extends Kotlin's coroutines library by offering type-safe functions 
 ### Gradle (Kotlin DSL)
 
 ```kotlin
-dependencies {
-    implementation("kioskware.kstateflows:kstateflows:0.1.0-alpha")
-}
+dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url = uri("https://jitpack.io") }
+		}
+	}
 ```
 
-### Gradle (Groovy)
-
-```groovy
+```kotlin
 dependencies {
-    implementation 'kioskware.kstateflows:kstateflows:0.1.0-alpha'
+	        implementation("com.github.kioskware:kstateflows:0.1.1-alpha")
 }
 ```
 
